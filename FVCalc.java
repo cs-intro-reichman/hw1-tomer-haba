@@ -13,5 +13,5 @@ public class FVCalc {
 
 		System.out.println(
 			" After " + (int) years + " years, $" + (int)currentValue + " saved at " 
-			+ 100 * ratePercent + "% will yield $" + futureValueInt);
+			+ ratePercent + "%25 will yield $" + futureValueInt);
 }}

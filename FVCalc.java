@@ -12,6 +12,6 @@ public class FVCalc {
 		double ratePercent = interestRate * 100;
 
 		System.out.println(
-			"after " + (int)years + "years, $" + (int)currentValue + "saved at " 
-			+ ratePercent + "% will yield $" + futureValueInt);
+			" After " + (int) years + " years, $" + (int)currentValue + " saved at " 
+			+ ratePercent + "%25 will yield $" + futureValueInt);
 }}

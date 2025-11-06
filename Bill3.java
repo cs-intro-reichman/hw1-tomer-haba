@@ -9,6 +9,6 @@ public class Bill3 {
 		int price = Integer.parseInt(args[3]); 
 		double money = Math.ceil(price / 3.0);
 		 //  Total bill amount
-	    System.out.println("Dear " + name1 + ", " + name2 + ", and " + name3 + ": pay " + money + " Shekels each.");
+	    System.out.println("Dear " + name3 + ", " + name2 + ", and " + name1 + ": pay " + money + " Shekels each.");
 		System.out.println("Done");	}
 }
